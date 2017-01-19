@@ -26,7 +26,7 @@ and run
 
 or run
 
-    composer require fenos/notifynder
+    composer require difftechnology/notifynder
 
 
 ### Step 2 ###
@@ -35,11 +35,11 @@ Add the following string to `config/app.php`
 
 **Providers array:**
 
-    Fenos\Notifynder\NotifynderServiceProvider::class,
+    difftechnology\Notifynder\NotifynderServiceProvider::class,
 
 **Aliases array:**
 
-    'Notifynder' => Fenos\Notifynder\Facades\Notifynder::class,
+    'Notifynder' => difftechnology\Notifynder\Facades\Notifynder::class,
 
 
 ### Step 3 ###
@@ -48,7 +48,7 @@ Add the following string to `config/app.php`
 
 Publish the migration as well as the configuration of notifynder with the following command:
 
-    php artisan vendor:publish --provider="Fenos\Notifynder\NotifynderServiceProvider"
+    php artisan vendor:publish --provider="difftechnology\Notifynder\NotifynderServiceProvider"
 
 Run the migration
 
