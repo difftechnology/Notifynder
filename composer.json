@@ -1,5 +1,5 @@
 {
-  "name": "fenos/notifynder",
+  "name": "difftechnology/notifynder",
   "description": "Management system of internal notifications for Laravel 5.*",
   "keywords": ["notifications", "laravel"],
   "license": "MIT",
@@ -28,7 +28,7 @@
 
     ],
     "psr-4": {
-      "Fenos\\Notifynder\\": "src/Notifynder"
+      "difftechnology\\Notifynder\\": "src/Notifynder"
     }
   },
   "autoload-dev": {
