@@ -28,7 +28,7 @@
 
     ],
     "psr-4": {
-      "difftechnology\\Notifynder\\": "src/Notifynder"
+      "Fenos\\Notifynder\\": "src/Notifynder"
     }
   },
   "autoload-dev": {
