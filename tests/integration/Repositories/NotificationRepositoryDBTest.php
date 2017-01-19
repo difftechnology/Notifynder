@@ -1,7 +1,7 @@
 <?php
 
-use Fenos\Notifynder\Models\Notification;
-use Fenos\Notifynder\Notifications\NotificationRepository;
+use Difftechnology\Notifynder\Models\Notification;
+use Difftechnology\Notifynder\Notifications\NotificationRepository;
 use Laracasts\TestDummy\Factory;
 
 class NotificationRepositoryDBTest extends TestCaseDB

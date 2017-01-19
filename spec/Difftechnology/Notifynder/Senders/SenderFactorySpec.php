@@ -1,12 +1,12 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Senders;
+namespace spec\Difftechnology\Notifynder\Senders;
 
-use Fenos\Notifynder\Contracts\NotifynderCategory;
-use Fenos\Notifynder\Contracts\NotifynderGroup;
-use Fenos\Notifynder\Senders\SendGroup;
-use Fenos\Notifynder\Senders\SendMultiple;
-use Fenos\Notifynder\Senders\SendOne;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Contracts\NotifynderGroup;
+use Difftechnology\Notifynder\Senders\SendGroup;
+use Difftechnology\Notifynder\Senders\SendMultiple;
+use Difftechnology\Notifynder\Senders\SendOne;
 use PhpSpec\ObjectBehavior;
 
 class SenderFactorySpec extends ObjectBehavior
@@ -18,7 +18,7 @@ class SenderFactorySpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Senders\SenderFactory');
+        $this->shouldHaveType('Difftechnology\Notifynder\Senders\SenderFactory');
     }
 
     /** @test */

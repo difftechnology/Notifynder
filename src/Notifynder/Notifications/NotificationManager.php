@@ -1,13 +1,13 @@
 <?php
 
-namespace Fenos\Notifynder\Notifications;
+namespace Difftechnology\Notifynder\Notifications;
 
 use Closure;
-use Fenos\Notifynder\Contracts\NotificationDB;
-use Fenos\Notifynder\Contracts\NotifynderNotification;
-use Fenos\Notifynder\Exceptions\NotificationNotFoundException;
-use Fenos\Notifynder\Models\Notification as NotificationModel;
-use Fenos\Notifynder\Models\NotifynderCollection;
+use Difftechnology\Notifynder\Contracts\NotificationDB;
+use Difftechnology\Notifynder\Contracts\NotifynderNotification;
+use Difftechnology\Notifynder\Exceptions\NotificationNotFoundException;
+use Difftechnology\Notifynder\Models\Notification as NotificationModel;
+use Difftechnology\Notifynder\Models\NotifynderCollection;
 use Illuminate\Pagination\LengthAwarePaginator;
 
 /**
@@ -54,7 +54,7 @@ class NotificationManager implements NotifynderNotification
      *
      * @param $notificationId
      * @return NotificationModel|\Illuminate\Database\Eloquent\Model|static
-     * @throws \Fenos\Notifynder\Exceptions\NotificationNotFoundException
+     * @throws \Difftechnology\Notifynder\Exceptions\NotificationNotFoundException
      */
     public function find($notificationId)
     {
@@ -73,7 +73,7 @@ class NotificationManager implements NotifynderNotification
      * the ID of it.
      *
      * @param $notificationId
-     * @return bool|\Fenos\Notifynder\Models\Notification
+     * @return bool|\Difftechnology\Notifynder\Models\Notification
      */
     public function readOne($notificationId)
     {

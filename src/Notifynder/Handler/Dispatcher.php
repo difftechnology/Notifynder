@@ -1,9 +1,9 @@
 <?php
 
-namespace Fenos\Notifynder\Handler;
+namespace Difftechnology\Notifynder\Handler;
 
-use Fenos\Notifynder\Contracts\NotifynderDispatcher;
-use Fenos\Notifynder\Notifynder;
+use Difftechnology\Notifynder\Contracts\NotifynderDispatcher;
+use Difftechnology\Notifynder\Notifynder;
 use Illuminate\Contracts\Events\Dispatcher as LaravelDispatcher;
 
 /**

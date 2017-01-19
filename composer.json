@@ -28,7 +28,7 @@
 
     ],
     "psr-4": {
-      "Fenos\\Notifynder\\": "src/Notifynder"
+      "Difftechnology\\Notifynder\\": "src/Notifynder"
     }
   },
   "autoload-dev": {
@@ -36,7 +36,7 @@
       "tests/TestCaseDB.php"
     ],
     "psr-4": {
-      "Fenos\\Tests\\": "tests/models"
+      "Difftechnology\\Tests\\": "tests/models"
     }
   },
   "minimum-stability": "v1.0"

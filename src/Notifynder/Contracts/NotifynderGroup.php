@@ -1,6 +1,6 @@
 <?php
 
-namespace Fenos\Notifynder\Contracts;
+namespace Difftechnology\Notifynder\Contracts;
 
 use InvalidArgumentException;
 
@@ -14,7 +14,7 @@ interface NotifynderGroup
      *
      * @param $groupId
      * @return \Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Eloquent\Model|static
-     * @throws \Fenos\Notifynder\Exceptions\NotifynderGroupNotFoundException
+     * @throws \Difftechnology\Notifynder\Exceptions\NotifynderGroupNotFoundException
      */
     public function findById($groupId);
 
@@ -23,7 +23,7 @@ interface NotifynderGroup
      *
      * @param $groupName
      * @return mixed
-     * @throws \Fenos\Notifynder\Exceptions\NotifynderGroupNotFoundException
+     * @throws \Difftechnology\Notifynder\Exceptions\NotifynderGroupNotFoundException
      */
     public function findByName($groupName);
 

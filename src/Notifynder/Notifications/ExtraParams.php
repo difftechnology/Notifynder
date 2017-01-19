@@ -1,6 +1,6 @@
 <?php
 
-namespace Fenos\Notifynder\Notifications;
+namespace Difftechnology\Notifynder\Notifications;
 
 use ArrayAccess;
 use JsonSerializable;

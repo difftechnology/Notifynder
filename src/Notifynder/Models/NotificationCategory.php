@@ -1,6 +1,6 @@
 <?php
 
-namespace Fenos\Notifynder\Models;
+namespace Difftechnology\Notifynder\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -35,7 +35,7 @@ class NotificationCategory extends Model
      */
     public function notifications()
     {
-        return $this->hasMany('Fenos\Notifynder\Models\Notification', 'category_id');
+        return $this->hasMany('Difftechnology\Notifynder\Models\Notification', 'category_id');
     }
 
     /**
@@ -46,7 +46,7 @@ class NotificationCategory extends Model
     public function categories()
     {
         return $this->belongsToMany(
-            'Fenos\Notifynder\Models\NotificationGroup',
+            'Difftechnology\Notifynder\Models\NotificationGroup',
             'notifications_categories_in_groups',
             'category_id',
             'group_id'

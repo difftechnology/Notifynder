@@ -1,9 +1,9 @@
 <?php
 
-namespace Fenos\Notifynder\Handler;
+namespace Difftechnology\Notifynder\Handler;
 
-use Fenos\Notifynder\Contracts\NotifyListener;
-use Fenos\Notifynder\Notifynder;
+use Difftechnology\Notifynder\Contracts\NotifyListener;
+use Difftechnology\Notifynder\Notifynder;
 
 /**
  * Class NotifynderHandler.

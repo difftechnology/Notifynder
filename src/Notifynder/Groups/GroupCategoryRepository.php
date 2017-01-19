@@ -1,11 +1,11 @@
 <?php
 
-namespace Fenos\Notifynder\Groups;
+namespace Difftechnology\Notifynder\Groups;
 
-use Fenos\Notifynder\Contracts\NotifynderCategory;
-use Fenos\Notifynder\Contracts\NotifynderGroupCategoryDB;
-use Fenos\Notifynder\Models\NotificationCategory;
-use Fenos\Notifynder\Models\NotificationGroup;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Contracts\NotifynderGroupCategoryDB;
+use Difftechnology\Notifynder\Models\NotificationCategory;
+use Difftechnology\Notifynder\Models\NotificationGroup;
 
 /**
  * Class NotificationGroupCategoryRepository.

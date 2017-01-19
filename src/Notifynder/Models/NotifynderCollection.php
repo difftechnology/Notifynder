@@ -1,10 +1,10 @@
 <?php
 
-namespace Fenos\Notifynder\Models;
+namespace Difftechnology\Notifynder\Models;
 
-use Fenos\Notifynder\Contracts\NotifynderTranslator;
-use Fenos\Notifynder\Exceptions\NotificationTranslationNotFoundException;
-use Fenos\Notifynder\Parsers\NotifynderParser;
+use Difftechnology\Notifynder\Contracts\NotifynderTranslator;
+use Difftechnology\Notifynder\Exceptions\NotificationTranslationNotFoundException;
+use Difftechnology\Notifynder\Parsers\NotifynderParser;
 use Illuminate\Database\Eloquent\Collection;
 
 /**

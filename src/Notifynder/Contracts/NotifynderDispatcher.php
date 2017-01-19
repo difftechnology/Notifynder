@@ -1,8 +1,8 @@
 <?php
 
-namespace Fenos\Notifynder\Contracts;
+namespace Difftechnology\Notifynder\Contracts;
 
-use Fenos\Notifynder\Notifynder;
+use Difftechnology\Notifynder\Notifynder;
 
 /**
  * Interface NotifynderDispatcher.

@@ -1,11 +1,11 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Notifications;
+namespace spec\Difftechnology\Notifynder\Notifications;
 
-use Fenos\Notifynder\Contracts\NotificationDB;
-use Fenos\Notifynder\Exceptions\NotificationNotFoundException;
-use Fenos\Notifynder\Models\Notification;
-use Fenos\Notifynder\Models\NotifynderCollection;
+use Difftechnology\Notifynder\Contracts\NotificationDB;
+use Difftechnology\Notifynder\Exceptions\NotificationNotFoundException;
+use Difftechnology\Notifynder\Models\Notification;
+use Difftechnology\Notifynder\Models\NotifynderCollection;
 use PhpSpec\ObjectBehavior;
 
 class NotificationManagerSpec extends ObjectBehavior
@@ -17,7 +17,7 @@ class NotificationManagerSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Notifications\NotificationManager');
+        $this->shouldHaveType('Difftechnology\Notifynder\Notifications\NotificationManager');
     }
 
     /** @test */

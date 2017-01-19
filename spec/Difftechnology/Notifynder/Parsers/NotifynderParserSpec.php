@@ -1,16 +1,16 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Parsers;
+namespace spec\Difftechnology\Notifynder\Parsers;
 
-use Fenos\Notifynder\Exceptions\ExtraParamsException;
-use Fenos\Notifynder\Parsers\NotifynderParser;
+use Difftechnology\Notifynder\Exceptions\ExtraParamsException;
+use Difftechnology\Notifynder\Parsers\NotifynderParser;
 use PhpSpec\ObjectBehavior;
 
 class NotifynderParserSpec extends ObjectBehavior
 {
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Parsers\NotifynderParser');
+        $this->shouldHaveType('Difftechnology\Notifynder\Parsers\NotifynderParser');
     }
 
     /** @test */

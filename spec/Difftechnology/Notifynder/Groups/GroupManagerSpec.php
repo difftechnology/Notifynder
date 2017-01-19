@@ -1,11 +1,11 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Groups;
+namespace spec\Difftechnology\Notifynder\Groups;
 
-use Fenos\Notifynder\Contracts\NotifynderGroupCategoryDB;
-use Fenos\Notifynder\Contracts\NotifynderGroupDB;
-use Fenos\Notifynder\Exceptions\NotifynderGroupNotFoundException;
-use Fenos\Notifynder\Models\NotificationGroup;
+use Difftechnology\Notifynder\Contracts\NotifynderGroupCategoryDB;
+use Difftechnology\Notifynder\Contracts\NotifynderGroupDB;
+use Difftechnology\Notifynder\Exceptions\NotifynderGroupNotFoundException;
+use Difftechnology\Notifynder\Models\NotificationGroup;
 use PhpSpec\ObjectBehavior;
 
 class GroupManagerSpec extends ObjectBehavior
@@ -17,7 +17,7 @@ class GroupManagerSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Groups\GroupManager');
+        $this->shouldHaveType('Difftechnology\Notifynder\Groups\GroupManager');
     }
 
     /** @test */

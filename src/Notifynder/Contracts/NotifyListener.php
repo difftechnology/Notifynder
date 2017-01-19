@@ -1,8 +1,8 @@
 <?php
 
-namespace Fenos\Notifynder\Contracts;
+namespace Difftechnology\Notifynder\Contracts;
 
-use Fenos\Notifynder\Handler\NotifynderEvent;
+use Difftechnology\Notifynder\Handler\NotifynderEvent;
 
 /**
  * Interface NotifyListener.

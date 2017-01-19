@@ -1,7 +1,7 @@
 <?php
 
-use Fenos\Notifynder\Models\Notification;
-use Fenos\Tests\Models\User;
+use Difftechnology\Notifynder\Models\Notification;
+use Difftechnology\Tests\Models\User;
 use Laracasts\TestDummy\Factory;
 
 /**
@@ -21,7 +21,7 @@ class NotifableTraitTest extends TestCaseDB
      */
     protected $to = [
         'id' => 1,
-        'type' => 'Fenos\Tests\Models\User',
+        'type' => 'Difftechnology\Tests\Models\User',
     ];
 
     /**

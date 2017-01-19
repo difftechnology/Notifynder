@@ -13,7 +13,7 @@ abstract class TestCaseDB extends TestCase
      */
     protected function getPackageProviders($app)
     {
-        return ['Fenos\Notifynder\NotifynderServiceProvider'];
+        return ['Difftechnology\Notifynder\NotifynderServiceProvider'];
     }
 
     /**
@@ -32,8 +32,8 @@ abstract class TestCaseDB extends TestCase
         $this->migrate($artisan, '/../../../../tests/migrations');
 
         // Set up the User Test Model
-        app('config')->set('notifynder.notification_model', 'Fenos\Notifynder\Models\Notification');
-        app('config')->set('notifynder.model', 'Fenos\Tests\Models\User');
+        app('config')->set('notifynder.notification_model', 'Difftechnology\Notifynder\Models\Notification');
+        app('config')->set('notifynder.model', 'Difftechnology\Tests\Models\User');
     }
 
     /**

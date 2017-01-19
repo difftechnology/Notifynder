@@ -1,17 +1,17 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Categories;
+namespace spec\Difftechnology\Notifynder\Categories;
 
-use Fenos\Notifynder\Contracts\CategoryDB;
-use Fenos\Notifynder\Exceptions\CategoryNotFoundException;
-use Fenos\Notifynder\Models\NotificationCategory;
+use Difftechnology\Notifynder\Contracts\CategoryDB;
+use Difftechnology\Notifynder\Exceptions\CategoryNotFoundException;
+use Difftechnology\Notifynder\Models\NotificationCategory;
 use PhpSpec\ObjectBehavior;
 
 class CategoryManagerSpec extends ObjectBehavior
 {
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Categories\CategoryManager');
+        $this->shouldHaveType('Difftechnology\Notifynder\Categories\CategoryManager');
     }
 
     public function let(CategoryDB $categoryRepository)

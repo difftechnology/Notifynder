@@ -1,15 +1,5 @@
-Notifynder 3.2 - Laravel 5
-==========================
 
-Notifynder is designed to manage notifications in a powerful and easy way.
-With the flexibility that Notifynder offer, It provide a complete API to work with your notifications,
-such as storing, retriving, and organise your codebase to handle hundreds of notifications.
-You get started in a couple of minutes to "enable" notifications in your Laravel Project.
-
-Compatible DBs: **MySql** - **PostgresSql** - **Sqlite**
-
-Documentation: **[Notifynder Wiki](https://github.com/difftechnology/Notifynder/wiki)**
-
+Documentation: **[Notifynder Wiki](https://github.com/fenos/Notifynder/wiki)**
 - - -
 
 ## Installation ##
@@ -18,15 +8,11 @@ Documentation: **[Notifynder Wiki](https://github.com/difftechnology/Notifynder/
 
 Add it on your `composer.json`
 
-    "difftechnology/notifynder": "^3.2"
+    "difftechnology/notifynder": "3.1.*"
 
 and run 
 
     composer update
-
-or run
-
-    composer require difftechnology/notifynder
 
 
 ### Step 2 ###
@@ -35,11 +21,11 @@ Add the following string to `config/app.php`
 
 **Providers array:**
 
-    difftechnology\Notifynder\NotifynderServiceProvider::class,
+    Difftechnology\Notifynder\NotifynderServiceProvider::class,
 
 **Aliases array:**
 
-    'Notifynder' => difftechnology\Notifynder\Facades\Notifynder::class,
+    'Notifynder'=>Difftechnology\Notifynder\Facades\Notifynder::class,
 
 
 ### Step 3 ###
@@ -48,7 +34,7 @@ Add the following string to `config/app.php`
 
 Publish the migration as well as the configuration of notifynder with the following command:
 
-    php artisan vendor:publish --provider="difftechnology\Notifynder\NotifynderServiceProvider"
+    php artisan vendor:publish --provider="Difftechnology\Notifynder\NotifynderServiceProvider"
 
 Run the migration
 
@@ -87,6 +73,5 @@ Notifynder::readAll($user_id);
 
 To know more, such as the advance usage of Notifynder Visit the **[Notifynder Wiki](https://github.com/fenos/Notifynder/wiki)**.
 
-#### Forked From ####
-
-Fenos/Notifynder
+Forked from
+fenos/Notifynder

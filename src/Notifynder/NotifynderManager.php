@@ -1,15 +1,15 @@
 <?php
 
-namespace Fenos\Notifynder;
+namespace Difftechnology\Notifynder;
 
 use BadMethodCallException;
 use Closure;
-use Fenos\Notifynder\Builder\NotifynderBuilder;
-use Fenos\Notifynder\Contracts\NotifynderCategory;
-use Fenos\Notifynder\Contracts\NotifynderDispatcher;
-use Fenos\Notifynder\Contracts\NotifynderGroup;
-use Fenos\Notifynder\Contracts\NotifynderNotification;
-use Fenos\Notifynder\Contracts\NotifynderSender;
+use Difftechnology\Notifynder\Builder\NotifynderBuilder;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Contracts\NotifynderDispatcher;
+use Difftechnology\Notifynder\Contracts\NotifynderGroup;
+use Difftechnology\Notifynder\Contracts\NotifynderNotification;
+use Difftechnology\Notifynder\Contracts\NotifynderSender;
 use InvalidArgumentException;
 
 /**

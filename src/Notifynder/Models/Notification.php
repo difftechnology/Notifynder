@@ -1,7 +1,7 @@
-<?php namespace Fenos\Notifynder\Models;
+<?php namespace Difftechnology\Notifynder\Models;
 
-use Fenos\Notifynder\Notifications\ExtraParams;
-use Fenos\Notifynder\Parsers\NotifynderParser;
+use Difftechnology\Notifynder\Notifications\ExtraParams;
+use Difftechnology\Notifynder\Parsers\NotifynderParser;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 
@@ -23,7 +23,7 @@ use Carbon\Carbon;
  * @method wherePolymorphic
  * @method withNotRead
  *
- * @package Fenos\Notifynder\Models
+ * @package Difftechnology\Notifynder\Models
  */
 class Notification extends Model
 {

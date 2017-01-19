@@ -1,10 +1,10 @@
 <?php
 
-namespace Fenos\Notifynder\Categories;
+namespace Difftechnology\Notifynder\Categories;
 
-use Fenos\Notifynder\Contracts\CategoryDB;
-use Fenos\Notifynder\Contracts\NotifynderCategory;
-use Fenos\Notifynder\Exceptions\CategoryNotFoundException;
+use Difftechnology\Notifynder\Contracts\CategoryDB;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Exceptions\CategoryNotFoundException;
 
 /**
  * Class CategoryManager.
@@ -90,7 +90,7 @@ class CategoryManager implements NotifynderCategory
      *
      * @param  array                                         $name
      * @param                                                $text
-     * @return \Fenos\Notifynder\Models\NotificationCategory
+     * @return \Difftechnology\Notifynder\Models\NotificationCategory
      */
     public function add($name, $text)
     {

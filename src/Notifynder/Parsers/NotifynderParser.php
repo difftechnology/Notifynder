@@ -1,9 +1,9 @@
 <?php
 
-namespace Fenos\Notifynder\Parsers;
+namespace Difftechnology\Notifynder\Parsers;
 
-use Fenos\Notifynder\Exceptions\ExtraParamsException;
-use Fenos\Notifynder\Notifications\ExtraParams;
+use Difftechnology\Notifynder\Exceptions\ExtraParamsException;
+use Difftechnology\Notifynder\Notifications\ExtraParams;
 
 /**
  * Class NotifynderParser.
@@ -29,7 +29,7 @@ class NotifynderParser
      *
      * @param $item
      * @return string
-     * @throws \Fenos\Notifynder\Exceptions\ExtraParamsException
+     * @throws \Difftechnology\Notifynder\Exceptions\ExtraParamsException
      */
     public function parse($item)
     {

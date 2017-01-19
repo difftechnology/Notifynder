@@ -1,12 +1,12 @@
 <?php
 
-namespace Fenos\Notifynder\Senders;
+namespace Difftechnology\Notifynder\Senders;
 
-use Fenos\Notifynder\Contracts\NotifynderCategory;
-use Fenos\Notifynder\Contracts\NotifynderGroup;
-use Fenos\Notifynder\Contracts\DefaultSender;
-use Fenos\Notifynder\Contracts\StoreNotification;
-use Fenos\Notifynder\NotifynderManager;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Contracts\NotifynderGroup;
+use Difftechnology\Notifynder\Contracts\DefaultSender;
+use Difftechnology\Notifynder\Contracts\StoreNotification;
+use Difftechnology\Notifynder\NotifynderManager;
 
 /**
  * Class SendGroup.

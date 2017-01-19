@@ -1,8 +1,8 @@
 <?php
 
-namespace Fenos\Tests\Models;
+namespace Difftechnology\Tests\Models;
 
-use Fenos\Notifynder\Notifable;
+use Difftechnology\Notifynder\Notifable;
 
 class User extends \Illuminate\Database\Eloquent\Model
 {

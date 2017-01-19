@@ -1,6 +1,6 @@
 <?php
 
-use Fenos\Notifynder\Translator\TranslatorManager;
+use Difftechnology\Notifynder\Translator\TranslatorManager;
 
 /**
  * Class TranslatorTest.

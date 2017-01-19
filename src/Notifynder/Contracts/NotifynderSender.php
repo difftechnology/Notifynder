@@ -1,9 +1,9 @@
 <?php
 
-namespace Fenos\Notifynder\Contracts;
+namespace Difftechnology\Notifynder\Contracts;
 
-use Fenos\Notifynder\Senders\SendOne;
-use Fenos\Notifynder\Senders\SendMultiple;
+use Difftechnology\Notifynder\Senders\SendOne;
+use Difftechnology\Notifynder\Senders\SendMultiple;
 
 /**
  * Class SenderManager.

@@ -1,9 +1,9 @@
 <?php
 
-namespace Fenos\Notifynder\Contracts;
+namespace Difftechnology\Notifynder\Contracts;
 
 use Closure;
-use Fenos\Notifynder\Models\Notification as NotificationModel;
+use Difftechnology\Notifynder\Models\Notification as NotificationModel;
 
 /**
  * Class NotifynderNotification.
@@ -23,7 +23,7 @@ interface NotifynderNotification
      *
      * @param $notificationId
      * @return NotificationModel|\Illuminate\Database\Eloquent\Model|static
-     * @throws \Fenos\Notifynder\Exceptions\NotificationNotFoundException
+     * @throws \Difftechnology\Notifynder\Exceptions\NotificationNotFoundException
      */
     public function find($notificationId);
 
@@ -32,7 +32,7 @@ interface NotifynderNotification
      * the ID of it.
      *
      * @param $notificationId
-     * @return bool|\Fenos\Notifynder\Models\Notification
+     * @return bool|\Difftechnology\Notifynder\Models\Notification
      */
     public function readOne($notificationId);
 

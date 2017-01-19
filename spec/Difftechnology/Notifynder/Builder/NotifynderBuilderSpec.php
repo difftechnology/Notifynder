@@ -1,13 +1,13 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Builder;
+namespace spec\Difftechnology\Notifynder\Builder;
 
 use Carbon\Carbon;
-use Fenos\Notifynder\Builder\NotifynderBuilder;
-use Fenos\Notifynder\Categories\CategoryManager;
-use Fenos\Notifynder\Exceptions\EntityNotIterableException;
-use Fenos\Notifynder\Exceptions\IterableIsEmptyException;
-use Fenos\Notifynder\Models\NotificationCategory;
+use Difftechnology\Notifynder\Builder\NotifynderBuilder;
+use Difftechnology\Notifynder\Categories\CategoryManager;
+use Difftechnology\Notifynder\Exceptions\EntityNotIterableException;
+use Difftechnology\Notifynder\Exceptions\IterableIsEmptyException;
+use Difftechnology\Notifynder\Models\NotificationCategory;
 use Illuminate\Support\Collection;
 use PhpSpec\ObjectBehavior;
 
@@ -20,7 +20,7 @@ class NotifynderBuilderSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Builder\NotifynderBuilder');
+        $this->shouldHaveType('Difftechnology\Notifynder\Builder\NotifynderBuilder');
     }
 
     /** @test */

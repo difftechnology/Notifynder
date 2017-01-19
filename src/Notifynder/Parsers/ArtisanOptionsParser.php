@@ -1,6 +1,6 @@
 <?php
 
-namespace Fenos\Notifynder\Parsers;
+namespace Difftechnology\Notifynder\Parsers;
 
 /**
  * Class ArtisanOptionsParser.

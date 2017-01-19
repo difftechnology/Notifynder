@@ -1,9 +1,9 @@
 <?php
 
-namespace Fenos\Notifynder;
+namespace Difftechnology\Notifynder;
 
 use Closure;
-use Fenos\Notifynder\Builder\NotifynderBuilder;
+use Difftechnology\Notifynder\Builder\NotifynderBuilder;
 
 /**
  * Class Notifynder.

@@ -1,6 +1,6 @@
 <?php
 
-use Fenos\Notifynder\Categories\CategoryRepository;
+use Difftechnology\Notifynder\Categories\CategoryRepository;
 use Laracasts\TestDummy\Factory;
 
 /**
@@ -63,7 +63,7 @@ class NotificationCategoryRepositoryTest extends TestCaseDB
     /** @test */
     public function it_add_a_new_category()
     {
-        $categoryData = Factory::build('Fenos\Notifynder\Models\NotificationCategory');
+        $categoryData = Factory::build('Difftechnology\Notifynder\Models\NotificationCategory');
 
         $createCategory = $this->categoryRepo->add($categoryData->name, $categoryData->text);
 

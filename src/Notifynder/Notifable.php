@@ -1,6 +1,6 @@
 <?php
 
-namespace Fenos\Notifynder;
+namespace Difftechnology\Notifynder;
 
 use Closure;
 
@@ -142,7 +142,7 @@ trait Notifable
     }
 
     /**
-     * @return \Fenos\Notifynder\NotifynderManager
+     * @return \Difftechnology\Notifynder\NotifynderManager
      */
     protected function notifynderInstance()
     {

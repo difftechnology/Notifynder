@@ -1,11 +1,11 @@
 <?php
 
-namespace Fenos\Notifynder\Groups;
+namespace Difftechnology\Notifynder\Groups;
 
-use Fenos\Notifynder\Contracts\NotifynderGroup;
-use Fenos\Notifynder\Contracts\NotifynderGroupCategoryDB;
-use Fenos\Notifynder\Contracts\NotifynderGroupDB;
-use Fenos\Notifynder\Exceptions\NotifynderGroupNotFoundException;
+use Difftechnology\Notifynder\Contracts\NotifynderGroup;
+use Difftechnology\Notifynder\Contracts\NotifynderGroupCategoryDB;
+use Difftechnology\Notifynder\Contracts\NotifynderGroupDB;
+use Difftechnology\Notifynder\Exceptions\NotifynderGroupNotFoundException;
 use InvalidArgumentException;
 
 /**
@@ -39,7 +39,7 @@ class GroupManager implements NotifynderGroup
      *
      * @param $groupId
      * @return \Illuminate\Database\Eloquent\Collection|\Illuminate\Database\Eloquent\Model|static
-     * @throws \Fenos\Notifynder\Exceptions\NotifynderGroupNotFoundException
+     * @throws \Difftechnology\Notifynder\Exceptions\NotifynderGroupNotFoundException
      */
     public function findById($groupId)
     {
@@ -58,7 +58,7 @@ class GroupManager implements NotifynderGroup
      *
      * @param $groupName
      * @return mixed
-     * @throws \Fenos\Notifynder\Exceptions\NotifynderGroupNotFoundException
+     * @throws \Difftechnology\Notifynder\Exceptions\NotifynderGroupNotFoundException
      */
     public function findByName($groupName)
     {

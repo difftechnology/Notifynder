@@ -25,9 +25,9 @@ return [
      * If you need to extend the model class of
      * Notifynder you just need to change this line
      * With the path / NameSpace of your model and extend it
-     * with Fenos\Notifynder\Models\Notification
+     * with Difftechnology\Notifynder\Models\Notification
      */
-    'notification_model' => 'Fenos\Notifynder\Models\Notification',
+    'notification_model' => 'Difftechnology\Notifynder\Models\Notification',
 
     /**
      * Coordinating a lots notifications that require extra params

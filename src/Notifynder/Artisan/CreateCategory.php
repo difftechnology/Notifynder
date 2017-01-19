@@ -1,8 +1,8 @@
 <?php
 
-namespace Fenos\Notifynder\Artisan;
+namespace Difftechnology\Notifynder\Artisan;
 
-use Fenos\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputArgument;
 
@@ -23,7 +23,7 @@ class CreateCategory extends Command
     protected $description = 'Create and store a new notifynder category';
 
     /**
-     * @var \\Fenos\Notifynder\Contracts\NotifynderCategory
+     * @var \\Difftechnology\Notifynder\Contracts\NotifynderCategory
      */
     private $notifynderCategory;
 
@@ -31,7 +31,7 @@ class CreateCategory extends Command
      * Create a new command instance.
      *
      * @param  NotifynderCategory                    $notifynderCategory
-     * @return \Fenos\Notifynder\Artisan\CreateCategory
+     * @return \Difftechnology\Notifynder\Artisan\CreateCategory
      */
     public function __construct(NotifynderCategory $notifynderCategory)
     {

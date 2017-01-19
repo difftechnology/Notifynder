@@ -1,10 +1,10 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Senders;
+namespace spec\Difftechnology\Notifynder\Senders;
 
-use Fenos\Notifynder\Contracts\StoreNotification;
-use Fenos\Notifynder\Exceptions\CategoryNotFoundException;
-use Fenos\Notifynder\Models\Notification;
+use Difftechnology\Notifynder\Contracts\StoreNotification;
+use Difftechnology\Notifynder\Exceptions\CategoryNotFoundException;
+use Difftechnology\Notifynder\Models\Notification;
 use PhpSpec\ObjectBehavior;
 
 class SendOneSpec extends ObjectBehavior
@@ -17,7 +17,7 @@ class SendOneSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Senders\SendOne');
+        $this->shouldHaveType('Difftechnology\Notifynder\Senders\SendOne');
     }
 
     /** @test */

@@ -1,4 +1,4 @@
-<?php namespace Fenos\Notifynder\Builder;
+<?php namespace Difftechnology\Notifynder\Builder;
 
 use InvalidArgumentException;
 use Carbon\Carbon;
@@ -10,7 +10,7 @@ use Carbon\Carbon;
  * the builder has to match. It required mandatory
  * fields listed in the $requiredFields property
  *
- * @package Fenos\Notifynder\Builder
+ * @package Difftechnology\Notifynder\Builder
  */
 trait BuilderRules
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace spec\Fenos\Notifynder\Senders;
+namespace spec\Difftechnology\Notifynder\Senders;
 
-use Fenos\Notifynder\Contracts\StoreNotification;
+use Difftechnology\Notifynder\Contracts\StoreNotification;
 use PhpSpec\ObjectBehavior;
 
 class SendMultipleSpec extends ObjectBehavior
@@ -15,7 +15,7 @@ class SendMultipleSpec extends ObjectBehavior
 
     public function it_is_initializable()
     {
-        $this->shouldHaveType('Fenos\Notifynder\Senders\SendMultiple');
+        $this->shouldHaveType('Difftechnology\Notifynder\Senders\SendMultiple');
     }
 
     /** @test */

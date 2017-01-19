@@ -1,15 +1,15 @@
 <?php
 
-namespace Fenos\Notifynder\Senders;
+namespace Difftechnology\Notifynder\Senders;
 
 /*
  * Class NotifynderSenderFactory
  *
- * @package Fenos\Notifynder
+ * @package Difftechnology\Notifynder
  */
-use Fenos\Notifynder\Builder\NotifynderBuilder;
-use Fenos\Notifynder\Contracts\NotifynderCategory;
-use Fenos\Notifynder\Contracts\NotifynderGroup;
+use Difftechnology\Notifynder\Builder\NotifynderBuilder;
+use Difftechnology\Notifynder\Contracts\NotifynderCategory;
+use Difftechnology\Notifynder\Contracts\NotifynderGroup;
 
 /**
  * Class SenderFactory.

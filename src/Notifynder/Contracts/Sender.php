@@ -1,6 +1,6 @@
 <?php
 
-namespace Fenos\Notifynder\Contracts;
+namespace Difftechnology\Notifynder\Contracts;
 
 /**
  * Interface Sender.

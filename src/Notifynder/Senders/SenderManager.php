@@ -1,13 +1,13 @@
 <?php
 
-namespace Fenos\Notifynder\Senders;
+namespace Difftechnology\Notifynder\Senders;
 
 use BadMethodCallException;
 use Closure;
-use Fenos\Notifynder\Contracts\DefaultSender;
-use Fenos\Notifynder\Contracts\NotifynderSender;
-use Fenos\Notifynder\Contracts\Sender;
-use Fenos\Notifynder\Contracts\StoreNotification;
+use Difftechnology\Notifynder\Contracts\DefaultSender;
+use Difftechnology\Notifynder\Contracts\NotifynderSender;
+use Difftechnology\Notifynder\Contracts\Sender;
+use Difftechnology\Notifynder\Contracts\StoreNotification;
 use Illuminate\Contracts\Container\Container;
 use LogicException;
 

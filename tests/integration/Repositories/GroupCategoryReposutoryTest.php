@@ -1,6 +1,6 @@
 <?php
 
-use Fenos\Notifynder\Groups\GroupCategoryRepository;
+use Difftechnology\Notifynder\Groups\GroupCategoryRepository;
 
 /**
  * Class GroupCategoryReposutoryTest.
