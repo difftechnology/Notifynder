@@ -5,8 +5,8 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Fabrizio Fenoglio",
-      "email": "fabri_feno@yahoo.it",
+      "name": "difftechnology",
+      "email": "difftechnology",
       "role": "Developer"
     }
   ],
@@ -39,5 +39,5 @@
       "Difftechnology\\Tests\\": "tests/models"
     }
   },
-  "minimum-stability": "v1.0"
+  "minimum-stability": "stable"
 }
