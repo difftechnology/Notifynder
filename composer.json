@@ -39,5 +39,5 @@
       "Fenos\\Tests\\": "tests/models"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "v1.0"
 }
