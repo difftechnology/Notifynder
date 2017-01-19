@@ -1,6 +1,4 @@
 
-Documentation: **[Notifynder Wiki](https://github.com/fenos/Notifynder/wiki)**
-- - -
 
 ## Installation ##
 
@@ -8,7 +6,7 @@ Documentation: **[Notifynder Wiki](https://github.com/fenos/Notifynder/wiki)**
 
 Add it on your `composer.json`
 
-    "difftechnology/notifynder": "3.1.*"
+    "difftechnology/notifynder": ""
 
 and run 
 
